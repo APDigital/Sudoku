@@ -45,14 +45,14 @@ namespace SudokuTest
             board.SetSquareValue(9, 3, 9);
             board.SetSquareValue(9, 4, 7);
 
-            var result =string.Empty;
+            int? result = 0;
             foreach (var square in board.Squares)
             {
-                result = string.Format("| {0}", square.Value);
+                result = board.GetLastItem(9,9);
                 Console.WriteLine(result);
             }
 
-            Assert.AreNotEqual(null, result);
+            Assert.AreNotEqual(0, result);
         }
     }
 }

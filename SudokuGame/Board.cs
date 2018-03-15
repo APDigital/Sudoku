@@ -20,6 +20,7 @@ namespace SudokuGame
                 }
             }
         }
+
         public void SetSquareValue(int row, int column, int value)
         {
             Square activeSquare = Squares.Single(x => (x.Row == row) && (x.Column == column));
@@ -48,6 +49,16 @@ namespace SudokuGame
             {
                 SetSquareValue(square.Row, square.Column, square.PotentialValues[0]);
             }
+        }
+        public int? GetLastItem(int row, int col)
+        {
+            Square square = Squares.Single(x => (x.Row == row) && (x.Column == col));
+            int? result = 0;
+            while (row == 9 && col == 9)
+            {
+                result = square.Value;
+            }
+            return result;
         }
     }
 }
