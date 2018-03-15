@@ -9,7 +9,7 @@ namespace SudokuGame
     public class Square
     {
         private readonly List<int> potentialValues = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
+        //cases for each square
         internal enum Blocks
         {
             UpperLeft,
@@ -73,6 +73,8 @@ namespace SudokuGame
                 }
             }
         }
+
+
         public bool IsSolved { get { return Value != null; } }
         public int? Value { get; set; }
         internal List<int> PotentialValues { get; private set; }
