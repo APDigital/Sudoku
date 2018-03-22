@@ -8,6 +8,7 @@ namespace SudokuGame
 {
     public class Board
     {
+        
         public List<Square> Squares { get; private set; }
         public Board()
         {
@@ -50,6 +51,12 @@ namespace SudokuGame
                 SetSquareValue(square.Row, square.Column, square.PotentialValues[0]);
             }
         }
+
+        public IEnumerable<Square> GetNeighbours(Square sq)
+        {
+            return Squares.Where(s => (s.Row == sq.Row + 1));
+        }
+
         public int GetLastItem(int row, int col)
         {
             Square square = Squares.Single(x => (x.Row == row) && (x.Column == col));

@@ -22,7 +22,7 @@ namespace SudokuGame
             LowerMiddle,
             LowerRight
         }
-        public int Row { get; private set; }
+        public int Row { get;  set; }
         public int Column { get; private set; }
 
         internal Blocks Block

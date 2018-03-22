@@ -8,6 +8,6 @@ namespace SudokuGame
 {
    public interface IGraph
     {
-        IEnumerable<Square> GetNeighbours(Square s);
+        IEnumerable<Square> GetNeighbour(Square s);
     }
 }

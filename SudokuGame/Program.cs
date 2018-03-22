@@ -43,13 +43,10 @@ namespace SudokuGame
 
             board.SetSquareValue(9, 3, 9);
             board.SetSquareValue(9, 4, 7);
-
-            IGraph graph=null;
+            
             Square start = board.Squares.First();
-            Square result = graph.DepthFirstTraversal(start).Where(s => s.IsSolved).FirstOrDefault();
+            Square result = board.DepthFirstTraversal(start).Where(s => s.IsSolved).FirstOrDefault();
            
-
-
             int res = 0;
             foreach (var square in board.Squares)
             {

@@ -8,7 +8,7 @@ namespace SudokuGame
 {
     public static class SearchBoard
     {
-        public static IEnumerable<Square> DepthFirstTraversal(this IGraph graph, Square start)
+        public static IEnumerable<Square> DepthFirstTraversal(this Board board, Square start)
         {
             var visited = new HashSet<Square>();
             var stack = new Stack<Square>();
@@ -24,7 +24,7 @@ namespace SudokuGame
 
                 yield return current;
 
-                var neighbours = graph.GetNeighbours(current).Where(n => !visited.Contains(n));
+                var neighbours = board.GetNeighbours(current).Where(n => !visited.Contains(n));
                 
             }
         }
