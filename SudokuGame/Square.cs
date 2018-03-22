@@ -76,7 +76,7 @@ namespace SudokuGame
 
 
         public bool IsSolved { get { return Value != null; } }
-        public int? Value { get; set; }
+        public int Value { get; set; }
         internal List<int> PotentialValues { get; private set; }
 
         internal Square(int row, int column)

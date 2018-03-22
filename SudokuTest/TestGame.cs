@@ -45,7 +45,7 @@ namespace SudokuTest
             board.SetSquareValue(9, 3, 9);
             board.SetSquareValue(9, 4, 7);
 
-            int? result = 0;
+            int result = 0;
             foreach (var square in board.Squares)
             {
                 result = board.GetLastItem(9,9);
