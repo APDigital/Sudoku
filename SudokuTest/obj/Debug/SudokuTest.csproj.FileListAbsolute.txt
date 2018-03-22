@@ -1,0 +1,16 @@
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\SudokuTest.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\SudokuTest.pdb
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\SudokuGame.exe
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\SudokuGame.pdb
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\SudokuGame.exe.config
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\obj\Debug\SudokuTest.csprojResolveAssemblyReference.cache
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\obj\Debug\SudokuTest.csproj.CoreCompileInputs.cache
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\obj\Debug\SudokuTest.dll
+C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuTest\obj\Debug\SudokuTest.pdb

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SudokuGame
+namespace SudokuGamePT2
 {
     public class Square
     {
-        private readonly List<int> potentialValues = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+       
         //cases for each square
         internal enum Blocks
         {
@@ -22,16 +22,18 @@ namespace SudokuGame
             LowerMiddle,
             LowerRight
         }
-        public int Row { get;  set; }
-        public int Column { get; private set; }
-
+        public List<int> PotentialValues = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        public int Row { get; set; }
+        public int Column { get;  set; }
+        public int? Value { get; set; }
+        
         internal Blocks Block
         {
             get
             {
                 if (Row < 4)
                 {
-                    if (Column <4)
+                    if (Column < 4)
                     {
                         return Blocks.UpperLeft;
                     }
@@ -46,11 +48,11 @@ namespace SudokuGame
                 }
                 if (Row < 7)
                 {
-                    if (Column<4)
+                    if (Column < 4)
                     {
                         return Blocks.MiddleLeft;
                     }
-                    if (Column<7)
+                    if (Column < 7)
                     {
                         return Blocks.Middle;
                     }
@@ -59,11 +61,11 @@ namespace SudokuGame
                         return Blocks.MiddleRight;
                     }
                 }
-                if (Column <4)
+                if (Column < 4)
                 {
                     return Blocks.LowerLeft;
                 }
-                if (Column<7)
+                if (Column < 7)
                 {
                     return Blocks.LowerMiddle;
                 }
@@ -73,17 +75,13 @@ namespace SudokuGame
                 }
             }
         }
-
-
-        public bool IsSolved { get { return Value != 0; } }
-        public int Value { get; set; }
-        internal List<int> PotentialValues { get; private set; }
-
-        internal Square(int row, int column)
+        
+        public Square(int row, int column, int? value)
         {
             Row = row;
             Column = column;
-            PotentialValues = potentialValues;
+            Value = value;
         }
     }
 }
+
