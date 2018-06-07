@@ -1,5 +1,4 @@
 C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuGamePT2\obj\Debug\SudokuGamePT2.csprojResolveAssemblyReference.cache
-C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuGamePT2\obj\Debug\SudokuGamePT2.csproj.CoreCompileInputs.cache
 C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuGamePT2\bin\Debug\SudokuGamePT2.exe.config
 C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuGamePT2\bin\Debug\SudokuGamePT2.exe
 C:\Users\APearson\Documents\Apprenticeship Evidence\Year 2\GitHub\Sudoku\SudokuGamePT2\bin\Debug\SudokuGamePT2.pdb
