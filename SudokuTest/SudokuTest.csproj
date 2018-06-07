@@ -59,10 +59,6 @@
       <Project>{6390ff21-1c80-40ab-be7f-9d63d801056d}</Project>
       <Name>SudokuGamePT2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SudokuGame\SudokuGame.csproj">
-      <Project>{27cf78a3-cddd-4555-8b3a-08ef85cfdd6e}</Project>
-      <Name>SudokuGame</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

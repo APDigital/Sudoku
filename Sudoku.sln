@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuGame", "SudokuGame\SudokuGame.csproj", "{27CF78A3-CDDD-4555-8B3A-08EF85CFDD6E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuTest", "SudokuTest\SudokuTest.csproj", "{DE5E58BB-3972-4C74-97F5-209101AC3D1D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuGamePT2", "SudokuGamePT2\SudokuGamePT2.csproj", "{6390FF21-1C80-40AB-BE7F-9D63D801056D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuGamePT2Tests", "SudokuGamePT2Tests\SudokuGamePT2Tests.csproj", "{BD167A24-9C2C-4519-9BB2-7E2F33D0A22B}"
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{27CF78A3-CDDD-4555-8B3A-08EF85CFDD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27CF78A3-CDDD-4555-8B3A-08EF85CFDD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27CF78A3-CDDD-4555-8B3A-08EF85CFDD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27CF78A3-CDDD-4555-8B3A-08EF85CFDD6E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE5E58BB-3972-4C74-97F5-209101AC3D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE5E58BB-3972-4C74-97F5-209101AC3D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE5E58BB-3972-4C74-97F5-209101AC3D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE5E58BB-3972-4C74-97F5-209101AC3D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6390FF21-1C80-40AB-BE7F-9D63D801056D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6390FF21-1C80-40AB-BE7F-9D63D801056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6390FF21-1C80-40AB-BE7F-9D63D801056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
