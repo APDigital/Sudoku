@@ -14,9 +14,9 @@ namespace SudokuGamePT2
         public Board()
         {
             Squares = new List<Square>();
-            for (int row = 1; row < 9; row++)
+            for (int row = 1; row <= 9; row++)
             {
-                for (int col = 1; col < 9; col++)
+                for (int col = 1; col <= 9; col++)
                 {
                     Square newSquare = new Square(row, col,null);
                     Squares.Add(newSquare);

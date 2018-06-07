@@ -61,7 +61,7 @@ namespace SudokuGamePT2
                         return Blocks.MiddleRight;
                     }
                 }
-                if (Column < 4 && Row <= 9)
+                if (Column < 4)
                 {
                     return Blocks.LowerLeft;
                 }
