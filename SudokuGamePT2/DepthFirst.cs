@@ -13,7 +13,7 @@ namespace SudokuGamePT2
             Validation valid = new Validation();
             List<Square> potentialSquares = new List<Square>();
             List<int?> squareOriginalPotentialValues = new List<int?>();
-            IEnumerable<Square> nullSpaces = board.Squares.Where(s => s.Value == 0);
+            IEnumerable<Square> nullSpaces = board.Squares.Where(s => s.Value == null);
 
             int nullCount = 0;
             int previousNullCount = 0;
@@ -47,7 +47,7 @@ namespace SudokuGamePT2
                     }
                     if (board.Squares.Where(s => s.Value == null).Count() > 0)
                     {
-                        board = new Board();
+                       
                         board.SetSquareValue(item.Row, item.Column, item.Value);
                     }
                     else
